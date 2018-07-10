@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { IProduct } from './product';
-import { IOptionsValues } from '../../../node_modules/@types/selenium-webdriver/chrome';
 
 @Component({
     selector: 'pm-products',
