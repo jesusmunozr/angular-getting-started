@@ -19,16 +19,17 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
-              "src/favicon.ico",
               "src/assets",
-              "src/api"
+              "src/api",
+              "src/favicon.ico"
             ],
             "styles": [
+              "src/styles.css",
               "./node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/styles.css"
+              "./node_modules/fontawesome-web/css/fontawesome-all.min.css"
             ],
             "scripts": [
-              "./node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/jquery/dist/jquery.slim.js",
               "./node_modules/popper.js/dist/umd/popper.min.js",
               "./node_modules/bootstrap/dist/js/bootstrap.min.js"
             ]
